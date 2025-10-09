@@ -5,6 +5,7 @@ Instagram Business/Creator 계정의 인사이트 데이터를 자동으로 수�
 ## 다운로드 및 설치
 
 ### 설치 파일
+
 최신 버전: [InstagramInsights_setup.exe](https://github.com/picory/instagram-insights-release/releases/download/0.8.1/InstagramInsights_setup.exe)
 
 1. 위 링크에서 설치 파일을 다운로드합니다.
@@ -24,25 +25,29 @@ Instagram Business/Creator 계정의 인사이트 데이터를 자동으로 수�
 
 앱 실행 후 **"API 설정"** 버튼을 클릭하여 다음 정보를 입력합니다:
 
-#### 1. Instagram API
+#### 1. Instagram API (옵선)
+
 ```
-IG User ID: 17841468286053280
-IG Access Token: EAAYaKZCPxSesBP...
+IG User ID: ...
+IG Access Token: ...
 ```
 
-#### 2. Facebook App
+#### 2. Facebook App(옵션)
+
 ```
-FB App ID: 1717625938856427
-FB App Secret: 70875ee62578848c...
+FB App ID: ...
+FB App Secret: ...
 ```
 
-#### 3. Instagram App
+#### 3. Instagram App (옵션)
+
 ```
-IG App ID: 2700841533604232
-IG Secret Code: 460ad4126c44ccb1...
+IG App ID: ...
+IG Secret Code: ...
 ```
 
 #### 4. WordPress API (데이터 수집 서버)
+
 ```
 WP API Base URL: https://labs.picory.com/wp-json/instagram-insights/v1/
 WP API Key: (문의 필요)
@@ -60,10 +65,12 @@ WP API Key: (문의 필요)
 ### 기본 사용
 
 1. **계정 확인**
+
    - "계정 목록 확인" 버튼을 클릭하여 등록된 Instagram 계정을 확인합니다.
    - 활성/비활성 상태를 확인할 수 있습니다.
 
 2. **데이터 수집 시작**
+
    - "수집 시작" 버튼을 클릭합니다.
    - 오른쪽 로그 영역에서 진행 상황을 확인할 수 있습니다.
 
@@ -73,36 +80,44 @@ WP API Key: (문의 필요)
 ### 자동화 설정
 
 #### 1. OS 시작 시 자동 실행
+
 - "OS 시작시 자동으로 실행" 체크박스를 선택합니다.
 - Windows 시작 프로그램에 등록되어 부팅 시 자동으로 앱이 실행됩니다.
 
 #### 2. 앱 시작 시 자동 수집
+
 - "앱 시작시 자동으로 수집 시작" 체크박스를 선택합니다.
 - 앱이 실행되면 즉시 데이터 수집을 시작합니다.
 
 #### 3. 스케줄 설정
+
 - "수집 시작 시간"에서 원하는 시간을 설정합니다 (예: 09:00).
 - 매일 해당 시간에 자동으로 데이터 수집이 실행됩니다.
 
 ## 데이터 수집 API
 
 ### 기본 API 엔드포인트
+
 ```
 https://labs.picory.com/wp-json/instagram-insights/v1/
 ```
 
 ### API 기능
+
 - **계정 인사이트 수집**: 계정 전체 통계 데이터 (도달, 참여, 상호작용)
 - **미디어 수집**: 게시물 및 릴스 정보 (캡션, 좋아요, 댓글 수 등)
 - **미디어 인사이트**: 개별 미디어의 도달, 조회수, 저장 등
 
 ### 커스텀 API
+
 WordPress 플러그인을 통해 커스텀 가능합니다.
+
 - API KEY 발급이 필요합니다 (문의 필요).
 
 ## 설정 파일 위치
 
 모든 설정은 다음 경로에 저장됩니다:
+
 ```
 %USERPROFILE%\.instagram_insights\
 ├── .env              # API 설정 (자동 생성)
@@ -112,11 +127,13 @@ WordPress 플러그인을 통해 커스텀 가능합니다.
 ## 주의사항
 
 1. **Instagram 계정 요구사항**
+
    - Instagram Business 계정 또는 Creator 계정이 필요합니다.
    - 개인 계정에서는 Insights API를 사용할 수 없습니다.
    - Facebook 페이지와 Instagram 계정이 연결되어 있어야 합니다.
 
 2. **API 키 보안**
+
    - API KEY는 외부에 노출되지 않도록 주의하세요.
    - 설정 파일은 사용자 홈 디렉토리에 안전하게 저장됩니다.
 
@@ -132,6 +149,7 @@ WordPress 플러그인을 통해 커스텀 가능합니다.
 ## 최신 버전 확인
 
 앱은 자동으로 업데이트를 확인합니다:
+
 - 새 버전이 있으면 화면 하단에 알림이 표시됩니다.
 - 알림을 클릭하여 즉시 업데이트할 수 있습니다.
 
