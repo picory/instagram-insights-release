@@ -16,7 +16,7 @@ Instagram Business/Creator 계정의 인사이트 데이터를 자동으로 수�
 
 앱을 처음 실행하면 시리얼 키 입력 창이 나타납니다.
 
-- 시리얼 키가 필요한 경우 문의하세요.
+- 시리얼 키가 필요한 경우 문의하세요. (카카오톡 문의: bitsense)
 - 시리얼 키 형식: `XXXX-XXXX-XXXX-XXXX`
 
 ## API 설정
