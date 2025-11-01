@@ -6,7 +6,7 @@ Instagram Business/Creator 계정의 인사이트 데이터를 자동으로 수�
 
 ### 설치 파일
 
-최신 설치 버전: [InstagramInsights_setup.exe](https://github.com/picory/instagram-insights-release/releases/download/1.0.3/InstagramInsights_setup.exe)
+최신 설치 버전: [InstagramInsights_setup.exe](https://github.com/picory/instagram-insights-release/releases/download/1.0.4/InstagramInsights_setup.exe)
 
 1. 위 링크에서 설치 파일을 다운로드합니다.
 2. 다운로드한 `InstagramInsights_setup.exe` 파일을 실행합니다.
